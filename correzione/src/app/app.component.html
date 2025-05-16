@@ -2,7 +2,6 @@
 <input type = "text" #post> Post <br>
 <button (click)="addPost(nome.value, post.value)">Add Post</button>
 
-{{vettPost | json}}
 <hr>
 
 @for(post of vettPost; track post)
